@@ -1,0 +1,123 @@
+/**
+ *   __ _  ___  ___ ___   ___   ___     ____ _ __ ___   ___
+ *  / _` |/  / / __/ _ \ / _ \ /  /    / __/| '_ ` _ \ /  /
+ * | (_| |\  \| (_| (_) | (_) |\  \   | (__ | | | | | |\  \
+ *  \__,_|/__/ \___\___/ \___/ /__/    \___\|_| |_| |_|/__/
+ * 
+ * 
+ *************************************************************************************
+ * @ASCOOS-NAME        : ASCOOS CMS 24'                                              *
+ * @ASCOOS-VERSION     : 24.0.0                                                      *
+ * @ASCOOS-CATEGORY    : Kernel (Frontend and Administration Side)                   *
+ * @ASCOOS-CREATOR     : Drogidis Christos                                           *
+ * @ASCOOS-SITE        : www.ascoos.com                                              *
+ * @ASCOOS-LICENSE     : [Commercial] http://docs.ascoos.com/lics/ascoos/AGL-F.html  *
+ * @ASCOOS-COPYRIGHT   : Copyright (c) 2007 - 2023, AlexSoft Software.               *
+ *************************************************************************************
+ *
+ * @package             : Ascoos Web Extended Studio  - Servers Status
+ * @subpackage          : Reset CSS File
+ * @source             	: /awes-info/assets/css/reset.css
+ * @version            	: 1.0.0
+ * @created            	: 2024-10-31 22:00:00 UTC+3
+ * @updated            	: 
+ * @author             	: Drogidis Christos
+ * @authorSite         	: www.alexsoft.gr
+ * @license 			: AGL-F
+ * @translator         	:
+ * @translatorSite 		: 
+ * @translateDate		: 
+ * 
+ * @since PHP 5.6.40
+ */
+
+@charset "utf-8";
+/* * {all:unset;} /* Reset NULL  [initial | inherit | unset ] */
+script {display:none;}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {margin:0;padding:0;border:0;outline:0;background:transparent;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+
+*[hidden] { display: none; } /* If your browser doesn't support the HTML5 hidden attribute. */
+* .site-signature {display:none;} /* ASCOOS CMS - WEBSITE INFORMATION DIVISION */
+
+* html {
+	font-size:16px;
+}
+
+
+
+/* ---------------- 2015-09-27 ----------------------*/
+* {
+	outline: none; /* 2015-09-27 - to my CSS reset rules. It makes the UI more consistent between browsers. */
+}
+
+main { 
+	display: block; /* Because IE doesn’t render the main element as a block element by default. */
+}
+/* ------------- END 2015-09-27 ------------------- */
+
+
+
+/* CLEAR */
+* + html .clearfix { /* for IE7 */ display: inline-block;}
+* html .clearfix { /* for IE6 */ height: 1%;}
+.clearfix{display:inline-block;float:none;clear:both;}
+.clearfix:after{content:".";display:block;height:0;float:none;clear:both;visibility:hidden;}
+.clear_left{clear:left;}
+.clear_right{clear:right;}
+
+.clear, .clr, .clear-both, .clear_both {
+	clear:both;
+	zoom: 100;
+	-moz-transform: scale(1.0);
+	-webkit-transform: scale(1.0);
+	scale(1.0);
+	transform: scale(1.0);
+}
+.clear:after, .clr:after, .clear-both:after, .clear_both:after{
+	content:".";
+	display:block;
+	height:0;
+	float:none;
+	clear:both;
+	visibility:hidden;
+}
+
+
+/* BODY */
+body {
+	all:unset; /* Reset NULL  [initial | inherit | unset ] */
+	font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+}
+
+
+/* PAGE NAVIGATION */
+.pagenav,
+.pagenav-page,
+.pagenav-pagelink-prefix {
+	position:relative;
+	display:inline-block;
+	font-size:12px;
+	font-weight:bold;
+}
+.nav-visitors-in-page {font-weight:bold;}
+.nav-visitors-in-page-online-members {font-weight:bold; text-decoration:underline;}
+
+
+
+/*******************************************
+*
+*******************************************/
+hr {display:block; height:1px; border:0; border-top:1px solid #cccccc; margin:1em 0; padding:0;} /* change border colour to suit your needs */
+table {border-collapse:collapse; border-spacing:0;}
+input, select, label {vertical-align:middle;}
+
+
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}

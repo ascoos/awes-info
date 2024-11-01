@@ -1,0 +1,95 @@
+/**
+ *   __ _  ___  ___ ___   ___   ___     ____ _ __ ___   ___
+ *  / _` |/  / / __/ _ \ / _ \ /  /    / __/| '_ ` _ \ /  /
+ * | (_| |\  \| (_| (_) | (_) |\  \   | (__ | | | | | |\  \
+ *  \__,_|/__/ \___\___/ \___/ /__/    \___\|_| |_| |_|/__/
+ * 
+ * 
+ *************************************************************************************
+ * @ASCOOS-NAME        : ASCOOS CMS 24'                                              *
+ * @ASCOOS-VERSION     : 24.0.0                                                      *
+ * @ASCOOS-CATEGORY    : Kernel (Frontend and Administration Side)                   *
+ * @ASCOOS-CREATOR     : Drogidis Christos                                           *
+ * @ASCOOS-SITE        : www.ascoos.com                                              *
+ * @ASCOOS-LICENSE     : [Commercial] http://docs.ascoos.com/lics/ascoos/AGL-F.html  *
+ * @ASCOOS-COPYRIGHT   : Copyright (c) 2007 - 2023, AlexSoft Software.               *
+ *************************************************************************************
+ *
+ * @package             : Ascoos Web Extended Studio  - Servers Status
+ * @subpackage          : Default Theme CSS File
+ * @source             	: /awes-info/themes/default/theme.css
+ * @version            	: 1.0.0
+ * @created            	: 2024-10-31 22:00:00 UTC+3
+ * @updated            	: 
+ * @author             	: Drogidis Christos
+ * @authorSite         	: www.alexsoft.gr
+ * @license 			: AGL-F
+ * @translator         	:
+ * @translatorSite 		: 
+ * @translateDate		: 
+ * 
+ * @since PHP 5.6.40
+ */
+
+.block-awes-info-default {
+	position:relative;
+	display:block;
+	margin:0 0 5px 0;
+	padding:0;
+	border:1px solid rgba(82,168,236,.75)!important;
+	border-radius: 8px; /* Firefox */
+	-moz-border-radius: 8px; /* Firefox */
+	-webkit-border-radius: 8px; /* Safari and Chrome */
+	-khtml-border-radius: 8px 8px 8px 8px; /* Linux browsers */ 
+	box-shadow:0 0 7px rgba(82,168,236,.5);
+	-moz-box-shadow:0 0 7px rgba(82,168,236,.5);
+	-webkit-box-shadow:0 0 7px rgba(82,168,236,.5);
+	background-image: linear-gradient(bottom, #FFFFFF 58%, #F2FBFF 100%);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 58%, #F2FBFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 58%, #F2FBFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 58%, #F2FBFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 58%, #F2FBFF 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.58, #FFFFFF), color-stop(1, #F2FBFF));	
+	overflow:hidden;
+	user-select:none;
+	-o-user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+.block-awes-info-default .header {
+	position:relative;
+	display:block;
+	overflow:hidden;
+	height:20px;
+	margin:0;
+	padding:5px;
+	border-bottom:#069 inset 1px;
+	border-radius: 6px 6px 0 0;
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+}
+.block-awes-info-default .header h3 {
+	position:relative;
+	line-height:20px;
+	vertical-align:middle;
+	font-size:1.3em;
+	color: #069;
+	text-shadow:1px 1px 1px #09F;
+}
+.block-awes-info-default .text {
+	position:relative;
+	margin:0;
+	padding:5px;
+	color: #069;
+	font-family: "Lucida Grande","Trebuchet MS",Arial,Helvetica,sans-serif,Verdana;
+	font-size:13px;
+}
+.block-awes-info-default .text .table {position:relative; display:table; margin:0; padding:0; width:100%}
+.block-awes-info-default .text .row {position:relative; display:table-row; margin:0; padding:2px; }
+.block-awes-info-default .text .row:nth-child(odd) {background-color:#DDF0F0;}
+.block-awes-info-default .text .row:nth-child(even) {background-color:#F0F9F9; }
+.block-awes-info-default .text .cell {position:relative; display:table-cell; vertical-align:middle; text-align:left; padding:4px 2px; border-bottom:#ccc dashed 1px; color: #069;}
+.block-awes-info-default .text .cell a {color: #069; text-decoration:none; text-shadow:1px 1px 1px #eee;}
+.block-awes-info-default .text .cell a:hover {color:#036; text-decoration:none; text-shadow:1px 1px 1px #aaa;}
+.block-awes-info-default .text .right {padding:2px 2px 2px 6px; text-align:right;}
+.block-awes-info-default .more {margin-top:5px; padding:5px; text-align:right;}
