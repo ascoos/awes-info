@@ -1,6 +1,5 @@
 # [Ascoos Web Extended Studio](https://github.com/ascoos/awes) - Informations
 
-***
 
 [![AGL-F](https://img.shields.io/badge/License-AGLF-blue.svg)](http://docs.ascoos.com/lics/ascoos/AGL-F.html)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ascoos/awes-info/total?color=%230E80C0) 
@@ -11,11 +10,10 @@
 [![Ascoos Web Extended Studio - source code lines](https://tokei.rs/b1/github/ascoos/awes-info?category=code)](https://github.com/ascoos/awes-info) 
 [![Ascoos Web Extended Studio - files in repository](https://tokei.rs/b1/github/ascoos/awes-info?category=files)](https://github.com/ascoos/awes-info)
 
-***
+
 
 ![https://a.fsdn.com/con/app/proj/ascoos-web-extended-studio/screenshots/AWES-24.1.1-00000101-800-9307ef8c.png](https://a.fsdn.com/con/app/proj/ascoos-web-extended-studio/screenshots/AWES-24.1.1-00000101-800-9307ef8c.png)
 
-***
 
 ## Description
 
@@ -27,9 +25,8 @@ The package then undertakes to visualize them in a display block, so that the vi
 
 The package also provides the ability to display or not the version of each server.
 
-***
 
-# Downloads
+## Downloads
 
 [![OFFICIAL ASCOOS DOWNLOAD SITE](https://img.shields.io/website?url=https://dl.ascoos.com/pub/awes-info)](https://dl.ascoos.com/pub/awes-info/awes-info-latest.zip) 
 [![Ascoos Web Extended Studio Informations on Github](https://img.shields.io/badge/GitHub-AWES--Info-blue.svg)](https://github.com/ascoos/awes-info/releases) 
@@ -43,8 +40,7 @@ The package also provides the ability to display or not the version of each serv
 [![Download Ascoos Web Extended Studio Informations](https://img.shields.io/sourceforge/dd/awes-info.svg)](https://sourceforge.net/projects/awes-info/files/latest/download)
 
 
-***
-# Installation and use this library
+## Installation and use this library
 
 1. Download latest release
 2. Unzip package in your working directory on any web server
@@ -55,13 +51,11 @@ The package also provides the ability to display or not the version of each serv
 
 ![AWES Block Servers Information](https://raw.githubusercontent.com/ascoos/awes-info/refs/heads/main/screenshot.png)
 
-***
 
 ## Awards
 
     No awards at the moment
 
-***
 
 ## Contributing
 
@@ -74,3 +68,4 @@ Contributions are welcome [github](https://github.com/ascoos/awes-info)
 ## Feedback
 
 Please send any feedback or suggestions to [X Ascoos account](https://twitter.com/ascoos) or [create an issue](https://issues.ascoos.com) on Ascoos Projects Issues.
+
