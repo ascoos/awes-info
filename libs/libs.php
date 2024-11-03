@@ -19,9 +19,9 @@
  * @package             : Ascoos Web Extended Studio  - Servers Status
  * @subpackage          : Libraries 
  * @source             	: /awes-info/libs/libs.php
- * @version            	: 1.0.0
+ * @version            	: 1.0.1
  * @created            	: 2024-10-31 22:00:00 UTC+3
- * @updated            	: 
+ * @updated            	: 2024-11-03 22:00:00 UTC+3
  * @author             	: Drogidis Christos
  * @authorSite         	: www.alexsoft.gr
  * @license 			: AGL-F
@@ -38,9 +38,10 @@ class TAWESInformationLib
     {
         global $conf;
 
-        $this->jsonData = @file_get_contents($conf->params['data']);    // Ανάγνωση του JSON από το αρχείο
+        // Read the JSON from the file
+        $this->jsonData = @file_get_contents( sprintf($conf->params['url'].'/%s/%s', $conf->params['datapath'], $conf->params['datafile']) );
   
-        // Ανάλυση του JSON
+        // Analysis of JSON
         $this->data = @json_decode($this->jsonData, true);
     }
 

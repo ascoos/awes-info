@@ -19,9 +19,9 @@
  * @package             : Ascoos Web Extended Studio  - Servers Status
  * @subpackage          : Configuration File
  * @source             	: /awes-info/libs/config.php
- * @version            	: 1.0.0
+ * @version            	: 1.0.1
  * @created            	: 2024-10-31 22:00:00 UTC+3
- * @updated            	: 
+ * @updated            	: 2024-11-03 22:00:00 UTC+3
  * @author             	: Drogidis Christos
  * @authorSite         	: www.alexsoft.gr
  * @license 			: AGL-F
@@ -34,8 +34,11 @@ class TAWESInfornmationConfig {
     public $params = [
         'lang'          => 'en',        // Current Language of package
         'show_title'    => true,        // Show Title in block element.
-        'data'          => 'http://demo.ascoos.com/tests/awes-info/data/info.json', // Remotes saved data
-        'theme'         => 'cleargray'	// The Block theme
+        'datapath'      => 'data',
+        'url'           => 'http://demo.ascoos.com/tests/awes-info', // Remotes saved data
+        'datafile'      => 'info.json', // NOT CHANGE
+        'show_version'  => false,
+        'theme'         => 'cleargray'	// The Block theme        
     ];
 
 

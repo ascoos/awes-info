@@ -19,9 +19,9 @@
  * @package             : Ascoos Web Extended Studio  - Servers Status
  * @subpackage          : Libraries 
  * @source             	: /awes-info/awes-info.php
- * @version            	: 1.0.0
+ * @version            	: 1.0.1
  * @created            	: 2024-10-31 22:00:00 UTC+3
- * @updated            	: 
+ * @updated            	: 2024-11-03 22:00:00 UTC+3
  * @author             	: Drogidis Christos
  * @authorSite         	: www.alexsoft.gr
  * @license 			: AGL-F
@@ -56,8 +56,11 @@ $text .= '<div class="text"><div class="table">';
 foreach ($lib->data as $key => $data)
 {
 	$text .= '<div class="row">';
-		$text .= '<div class="cell">'.$lib->isRunning($data['Run']).' '.$key.'</div>';
-		$text .= "<div class=\"cell right\">".$data['Version']."</div>";		
+	$text .= '<div class="cell">'.$lib->isRunning($data['Run']).' '.$key.'</div>';
+	
+	// If we have selected the display of the server version
+	if ($conf->params['show_version']) $text .= "<div class=\"cell right\">".$data['Version']."</div>";		
+	
 	$text .= '</div>'; // row
 }
 unset($items);
