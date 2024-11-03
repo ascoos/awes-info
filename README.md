@@ -63,7 +63,6 @@ This is an open source project, open to anyone.
 
 Contributions are welcome [github](https://github.com/ascoos/awes-info)
 
-***
 
 ## Feedback
 
