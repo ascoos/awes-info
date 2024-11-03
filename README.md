@@ -1,7 +1,4 @@
-# `Ascoos Web Extended Studio` - Informations
-
-***
-About `Ascoos Web Extended Studio`, see [here](https://github.com/ascoos/awes)
+# [Ascoos Web Extended Studio](https://github.com/ascoos/awes) - Informations
 
 ***
 
