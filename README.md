@@ -12,7 +12,7 @@
 
 
 
-![https://a.fsdn.com/con/app/proj/ascoos-web-extended-studio/screenshots/AWES-24.1.1-00000101-800-9307ef8c.png](https://a.fsdn.com/con/app/proj/ascoos-web-extended-studio/screenshots/AWES-24.1.1-00000101-800-9307ef8c.png)
+![Ascoos Web Extended Studio - Welcome](https://a.fsdn.com/con/app/proj/ascoos-web-extended-studio/screenshots/AWES-24.1.1-00000101-800-9307ef8c.png)
 
 
 ## Description
