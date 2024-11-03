@@ -13,7 +13,7 @@
 
 ***
 
-![https://a.fsdn.com/con/app/proj/ascoos-web-extended-studio/screenshots/AWES-About-24.1.0-00000001-1280-b7eeacf2.png](https://a.fsdn.com/con/app/proj/ascoos-web-extended-studio/screenshots/AWES-About-24.1.0-00000001-1280-b7eeacf2.png)
+![https://a.fsdn.com/con/app/proj/ascoos-web-extended-studio/screenshots/AWES-24.1.1-00000101-800-9307ef8c.png](https://a.fsdn.com/con/app/proj/ascoos-web-extended-studio/screenshots/AWES-24.1.1-00000101-800-9307ef8c.png)
 
 ***
 
