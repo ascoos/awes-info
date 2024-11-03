@@ -1,6 +1,9 @@
 # `Ascoos Web Extended Studio` - Informations
 
 ***
+About `Ascoos Web Extended Studio`, see [here](https://github.com/ascoos/awes)
+
+***
 
 [![AGL-F](https://img.shields.io/badge/License-AGLF-blue.svg)](http://docs.ascoos.com/lics/ascoos/AGL-F.html)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ascoos/awes-info/total?color=%230E80C0) 
