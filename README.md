@@ -25,6 +25,9 @@ The package then undertakes to visualize them in a display block, so that the vi
 
 The package also provides the ability to display or not the version of each server.
 
+## Requires :
+
+    Ascoos Web Extended Studio 24.1.1 and above
 
 ## Downloads
 
