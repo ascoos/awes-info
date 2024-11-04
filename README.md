@@ -29,6 +29,8 @@ The package also provides the ability to display or not the version of each serv
 
     Ascoos Web Extended Studio 24.1.1 and above
 
+![Ascoos Web Extended Studio Web Servers](https://a.fsdn.com/con/app/proj/ascoos-web-extended-studio/screenshots/AWES-24.1.1-00000102b-1024-37eaaf82.png)
+
 ## Downloads
 
 [![OFFICIAL ASCOOS DOWNLOAD SITE](https://img.shields.io/website?url=https://dl.ascoos.com/pub/awes-info)](https://dl.ascoos.com/pub/awes-info/awes-info-latest.zip) 
